@@ -5,9 +5,9 @@
 </head>
 <body>
 
-<h1>Daftar nama</h1> 
-	@foreach ($data as $datas)
-	<li> {{$datas}}</li>
+<h1>Daftar binatang</h1> 
+	@foreach ($binatang as $bina)
+	<li> {{$bina}}</li>
 	@endforeach
 
 </body>

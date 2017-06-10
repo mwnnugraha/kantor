@@ -32,15 +32,15 @@ class CobaController extends Controller
     	$data = ['adi','tatang','juju','icih','idin'];
     	return view('index', compact('data'));
     }
-     public function test($data)
+     public function ff($data)
     {
-    	$kampret  = ['binatang' =>  ['kucing', 'macan'],
-    				 'kendaraan' => ['mobil', 'motor'],
-    				 'laptop'=>['asus', 'acer']];
+    	$kampret  = ['binatang' =>  ['kucing', 'macan', 'biawak', 'hiu', 'macan'],
+    				 'kendaraan' => ['mobil', 'motor', 'bentor', 'beca', 'sepeda'],
+    				 'laptop'=>['asus', 'acer', 'hp', 'lenovo', 'sharp']];
     			     
-    	$hahaha=$kampret[$data];
+    	$hahah=$kampret[$data];
 
-    	return view('campuran', compact('hahaha'));
+    	return view('campuran', compact('hahah'));
     }
 
 }

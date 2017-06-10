@@ -6,8 +6,8 @@
 <body>
 	<h3>Data :</h3>
 	<tr>
-		@foreach($hahaha as $data)
-		{{$data}}<hr>
+		@foreach($hahah as $data)
+		<li>{{$data}}</li>
 		@endforeach
 		</tr>
 

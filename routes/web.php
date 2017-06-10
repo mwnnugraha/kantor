@@ -31,4 +31,4 @@ Route::get('bebas','CobaController@ulang');
 Route::get('nyobi','CobaController@binatang');
 Route::get('nyoba','CobaController@kendaraan');
 Route::get('nyobian','CobaController@laptop');
-Route::get('/{data}','CobaController@test');
+Route::get('/{data}','CobaController@ff');
